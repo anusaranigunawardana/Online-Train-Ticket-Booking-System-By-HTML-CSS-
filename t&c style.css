@@ -1,0 +1,84 @@
+*{
+	font-family: sans-serif;
+}
+
+html {
+	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('train.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.banner{
+	color:rgb(166, 211, 222);
+}
+
+
+.navbar{
+	width: 90%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 180px;
+	cursor: pointer;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 5px;
+	position: relative; 
+	padding: 7px;
+	cursor: pointer;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 6px;
+	cursor: pointer;
+}
+
+.navbar ul li::after{ 
+	content: '';  
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+	width: 100%; 
+}
+
+h1 {
+	font-size: 70px;
+	margin-top: 30px;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	color: aliceblue;
+}
+
+#new {
+	font-weight: bold;
+	text-decoration: underline;
+	color: aliceblue;
+}
+
+li{
+	color:#009688;
+}
